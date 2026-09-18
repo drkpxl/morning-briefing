@@ -29,12 +29,10 @@ Probe the environment for available data sources and infrastructure. Do this sil
 - Run `lpstat -p` via terminal — list available CUPS printers
 - If no printers found, note that the skill will need to use file output + notification fallback
 
-### Check for Tailscale
+### Check for a public-page host
 - Run `tailscale status` via terminal — if active, record the hostname
 - Run `tailscale serve status` — see what ports are already served
-
-### Check for Cloudflare Tunnel
-- Run `which cloudflared` and check for config — if present, note as alternative for overflow hosting
+- If Tailscale is unavailable, ask the user how they host public web pages (the overflow page is a QR-linkable web page for stories that don't fit on the printed sheet)
 
 ## Step 2: Present Findings
 

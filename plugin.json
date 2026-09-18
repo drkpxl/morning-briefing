@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "morning-briefing",
+  "version": "2.1.0",
+  "description": "Personal daily newspaper for Hermes: gathers weather, calendar, AQI, curated 36-hour news, and newsletter digests, renders one 8.5x11 newsprint page, and prints it every morning.",
+  "author": {
+    "name": "Steven Hubert",
+    "url": "https://github.com/drkpxl"
+  },
+  "homepage": "https://github.com/drkpxl/morning-briefing#readme",
+  "repository": "https://github.com/drkpxl/morning-briefing",
+  "license": "MIT",
+  "keywords": ["briefing", "newspaper", "print", "cron", "news", "weather"]
+}
